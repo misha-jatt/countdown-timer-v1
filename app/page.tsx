@@ -4,13 +4,10 @@ import Countdown from "@/components/count-down";
 
 export default function Home() {
     return (
-        <h1>
-            
-         <Countdown/>
-
-        </h1>
-        
-        
-        
+        <div className="flex justify-center">
+            <h1>
+                <Countdown/>
+            </h1>
+        </div>
     );
 }
