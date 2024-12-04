@@ -144,7 +144,7 @@ export default function Countdown() {
 
         {time === 0 && (
           <div className="text-xl text-center text-red-500 font-bold animate-pulse">
-            Time's up!
+            Time&apos;s up
           </div>
         )}
 
